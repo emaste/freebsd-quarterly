@@ -4,7 +4,7 @@ Contact: Dan Langille <dvl@FreeBSD.org>
 
 Link:	 [FreshPorts](https://www.FreshPorts.org/)  
 Link:	 [git_proc_commit code](https://github.com/FreshPorts/git_proc_commit)
-Link:	 [Things you didn’t know FreshPorts can do](https://news.freshports.org/2019/09/03/things-you-didnt-know-freshports-can-do/)
+Link:	 [Things you didn't know FreshPorts can do](https://news.freshports.org/2019/09/03/things-you-didnt-know-freshports-can-do/)
 
 FreshPorts consolidates commits into an easy-to-follow
 format so you can track changes to your favorite ports.
