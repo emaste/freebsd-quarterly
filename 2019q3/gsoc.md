@@ -9,6 +9,8 @@ The FreeBSD Project is pleased to have participated in
 Google Summer of Code 2019 marking our 14th year of participation.
 This year we had six successful projects:
 
+XXX do we have more information on any of these? Each should really have their
+XXX own quarterly submission
  * *Dual-stack ping command* by Ján Sučan
  * *Firewall test suite* by Ahsan Barkati
  * *Kernel sanitizers* by Costin Carabaș

@@ -2,6 +2,7 @@
 
 Contact: Konstantin Belousov <kib@FreeBSD.org>
 
+XXX
 After the ASLR so useful addition, next in the series of the
 buzzword-compliant checkboxes is the stack addresses randomization.
 

@@ -6,9 +6,10 @@ FUSE (File system in USErspace) allows a userspace program to
 implement a file system.  It is widely used to support out-of-tree file
 systems like NTFS, as well as for exotic pseudo file systems like
 sshfs.  FreeBSD's fuse driver was added as a GSoC project in 2012.
-Since that time, it has been largely neglected.  The FUSE software is
+Since that time, it has been largely neglected.  The FUSE software was
+XXX check this link
 [buggy](https://bugs.freebsd.org/bugzilla/buglist.cgi?bug_status=__open__&known_name=fusefs&list_id=289348&query_based_on=fusefs&query_format=advanced&short_desc=%5Bfusefs%5D%20sysutils%2Ffusefs-&short_desc_type=anywordssubstr)
-and out-of-date.  Our implementation is about 11 years behind.
+and out-of-date.  Our implementation was about 11 years behind.
 
 I completed this work during Q3.  I fixed a few newly-introduced bugs, fixed a
 long-standing sendfile bug that affects FUSE

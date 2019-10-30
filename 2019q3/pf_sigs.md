@@ -2,8 +2,8 @@
 
 Contact: Konstantin Belousov <kib@FreeBSD.org>
 
-Due to the obvious neccessity, handling of the page faults is
-separated into two pieces.  First one is the architecture-dependent low
+Due to the obvious neccessity XXX?, handling of the page faults is
+separated into two pieces.  First one is the architecture-dependent low-
 level machine exceptions handler, and the second one is the
 architecture-independent vm_fault() function in sys/vm/vm_fault.c.
 Typically machine-dependent code for page faults consists of three
