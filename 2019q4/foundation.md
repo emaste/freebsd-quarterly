@@ -94,6 +94,36 @@ Find out more information at
 https://www.FreeBSDfoundation.org/FreeBSD-foundation-partnership-program/
 and share with your companies!
 
+### OS Improvements ###
+
+The Foundation supports software development projects to improve the FreeBSD
+operating system through our full time technical staff, contractors, and
+project grant recipients. They maintain and improve critical kernel subsystems,
+add new features and functionality, and fix problems.
+
+Over the last quarter there were 236 commits to the FreeBSD base system
+repository sponsored by the FreeBSD Foundation - this represents about one
+fifth of all commits during this period.  Many of these projects have their own
+entries in this quarterly report (and are not repeated here).
+
+Foundation staff member Konstantin Belousov ...
+
+Additional work included fixes for security issues and introduction and maintenance of vulnerability mitigations, and improving POSIX conformance.
+
+Ed Maste ...
+
+Ed also enabled the Linuxulator (Linux binary support layer) on arm64, and added a trivial implementation of the renameat2 system call (handling common options).
+
+
+Mark Johnston added Capsicum support to a number of ELF Tool Chain utilities, and committed a number of other Capsicum kernel and userland fixes.
+
+
+Mark worked on a number of changes related to security improvements, including integration and support of the Syzkaller automated system call fuzzer, and fixing issues identified by Syzkaller.  Other changes included addressing failures caused by refcount wraparound, improvements to the `prot_max` memory protection. Other work included NUMA, locking, kernel debugging, RISC-V and arm64 kernel improvements
+
+
+Edward Napierala continued working on Linuxulator improvements over the quarter. The primary focus continued to be tool improvements - strace is now more usable for diagnosing issues with Linux binaries running under the Linuxulator. That said, as with previous work a number of issues have been fixed along the way. These are generally minor issues with a large impact - for example, every binary linked against up-to-date glibc previously segfaulted on startup. This is now fixed.
+
+
 ### Continuous Integration and Quality Assurance ###
 
 The Foundation provides a full-time staff member who is working on improving
