@@ -1,4 +1,4 @@
-## FreeBSD Foundation ##
+## FreeBSD Foundation
 
 Contact: Deb Goodkin <deb@FreeBSDFoundation.org>  
 
@@ -6,7 +6,7 @@ The FreeBSD Foundation is a 501(c)(3) non-profit organization dedicated to
 supporting and promoting the FreeBSD Project and community worldwide.  Funding
 comes from individual and corporate donations and is used to fund and manage
 software development projects, conferences and developer summits, and provide
-travel grants to FreeBSD contributors.  The Foundation purchases and supports
+travel grants to FreeBSD contributors. The Foundation purchases and supports
 hardware to improve and maintain FreeBSD infrastructure and provides resources
 to improve security, quality assurance, and release engineering efforts;
 publishes marketing material to promote, educate, and advocate for the FreeBSD
@@ -17,114 +17,90 @@ legal entity.
 
 Here are some highlights of what we did to help FreeBSD last quarter:
 
-### COVID-19 Impact to the Foundation ###
+### COVID-19 Impact to the Foundation
 
-Like other organizations, we put policies in place for all of our staff members
-to work from home.  We also put a temporary ban on travel for staff members.
-We are continuing our work supporting the community and Project, but some of
-our work and responses may be delayed because of changes in some of our
-priorities and the impact of limited childcare for a few of our staff members.
+Like most organizations, we transitioned all of our staff to work from home.
+We also put a temporary ban on travel for staff members, which didn't affect
+our output too much, since most conferences went virtual.  We continued
+supporting the community and Project, even though some of our work and
+responses may have been delayed because of changes in some of our priorities
+and the impact of limited childcare for a few of our staff members.
 
-### Partnerships and Commercial User Support ###
+### Partnerships and Commercial User Support
 
 We help facilitate collaboration between commercial users and FreeBSD
-developers.  We also meet with companies to discuss their needs and bring that
-information back to the Project.  Not surprisingly, the stay at home orders,
-combined with our company ban on travel during Q3 made in-person meetings
-non-existent.  However, the team was able to continue meeting with our partners
-and commercial users virtually.  These meetings help us understand some of the
+developers. We also meet with companies to discuss their needs and bring that
+information back to the Project. Not surprisingly, the stay at home orders,
+combined with our company ban on travel during Q4 made in-person meetings
+non-existent. However, the team was able to continue meeting with our partners
+and commercial users virtually. These meetings help us understand some of the
 applications where FreeBSD is used.
 
-We are currently scheduling Zoom company meetings for Q4, please reach out if
-you would like to schedule a meeting with us.
+An event we help plan and organize, that helps with vendor/developer
+engagement, is the annual Bay Area Vendor Summit.  We weren't going to let a
+pandemic stop us for holding this invaluable yearly event, so we went virtual!
+From the feedback we received from the vendor community on how we should run
+this, so it would be beneficial for them, we decided to hold this over 3 half
+days in November.  One unexpected result was that more commercial users from
+around the world attended.  Since a Vendor/Developer Summit is typically
+invitation only, we opened this up to FreeBSD contributors from around the
+world to watch the livestream. Because of the success and excitement of this
+event, we are planning to hold another one around June or July.
 
-### Fundraising Efforts ###
+### Fundraising Efforts
+We want to take a moment to say thank you to all the individuals and
+corporations that stepped up to help fund our efforts last year.  As of this
+writing, we raised $1,235,926, and will have the final tally by mid-January.
+The companies that gave generous financial contributions include Arm, NetApp,
+Netflix, Juniper Networks, Beckhoff, VMware, Stormshield, Tarsnap, and Google.
+We also want to say thank you to the Koum Family Foundation for awarding us a
+large grant, and to "the employees of Ngnix" who also made generous financial
+contributions.
 
-Last quarter we raised $192,874.43!  Thank you to the individuals and
-organizations that stepped in, to help fund our efforts.  We'd like to thank
-Arm for their large contribution last quarter, which helped bring our 2020
-fundraising effort to $521k.  We hope other organizations will follow their
-lead and give back to help us continue supporting FreeBSD.
+We truly appreciate these large contributions, which makes the most impact on
+how much we can contribute back to the Project.  However, it's the individual
+donations that have the most meaning to us.  Those are the folks who are giving
+because they trust we will invest their personal donations, whether large or
+small, into improving the operating system and Project.  As stewards of your
+donations, we want to thank you for your trust in us and your commitment to
+making FreeBSD the best platform for products, education, research, computing,
+and more.
 
-These are trying times, and we deeply appreciate every donation that has come
-in from $5 to $150,000. We're still here giving 110% to supporting FreeBSD!
+You'll find out how we used your donations for Q4 in our report, as well as in
+individual reports throughout this status report.
 
-We are 100% funded by donations, and those funds go towards software
-development work to improve FreeBSD, FreeBSD advocacy around the world, keeping
-FreeBSD secure, continuous integration improvements, sponsoring BSD-related and
-computing conferences (even the virtual events!), legal support for the
-Project, and many other areas.
+Though we know this is a Q4 status report, we are excited about our plans for
+2021, including growing our software development team!  We'll be posting two
+job descriptions for a Senior Software Developer and Project Coordinator soon.
 
-Please consider making a
-[donation to help us continue and increase our support for FreeBSD](https://www.FreeBSDfoundation.org/donate/.).
+Please consider making a donation to help us continue and increase our support
+for FreeBSD in 2021: https://www.FreeBSDfoundation.org/donate/.
 
 We also have the Partnership Program, to provide more benefits for our larger
-commercial donors.  Find out more information about the
-[partnership program](https://www.FreeBSDfoundation.org/FreeBSD-foundation-partnership-program/)
+commercial donors.  Find out more information at
+https://www.FreeBSDfoundation.org/FreeBSD-foundation-partnership-program/
 and share with your companies!
 
-### OS Improvements ###
+### OS Improvements
 
-A number of FreeBSD Foundation grant recipients started, continued working on,
-or completed projects during the third quarter.  These include:
- - Ongoing WiFi and Linux KPI layer improvements.
- - Linuxulator application compatibility.
- - DRM / Graphics driver updates.
- - Zstd compression for OpenZFS.
- - Online RAID-Z expansion.
- - Modernized LLDB target support for FreeBSD.
-
-You can find more details about most of these projects in other quarterly
-reports.
-
-Staff members also worked on a number of larger projects, including:
- - Run-Time Dynamic Linker (rtld) and kernel ELF loader improvements.
- - Rewritten UNIX domain socket locking.
- - Build infrastructure.
- - Open system call path handling support for O_BENEATH, O_RESOLVE_BENEATH.
- - arm64 support.
- - Migration to a Git repository.
-
-Many of these projects also have detailed entries in other quarterly report
-entries.
-
-Staff members also put in significant effort in many ways other than larger,
-individual projects.  These include assisting with code reviews, bug report
-triage, security report triage and advisory handling, addressing syzkaller
-reports, and ongoing maintenance and bug fixes in functional areas such as the
-tool chain, developer tools, virtual memory kernel subsystem, low-level x86
-infrastructure, sockets and protocols, and others.
-
-### University of Waterloo Co-op ###
-
-With the transition to working from home, the Foundation decided to again take
-on three University of Waterloo Co-op students for the Fall 2020 term
-(September to December).  Tiger returns for a second term, joined by new
-students Yang and Zac.  Projects for the term include more work on
-ELF Tool Chain, application of Capsicum to additional utilities, testing and
-integration of FreePBX and Asterisk VOIP software, pkgbase, and exploring
-containerization tooling.
-
-### Continuous Integration and Quality Assurance ###
-
+Continuous Integration and Quality Assurance
 The Foundation provides a full-time staff member and funds projects on
 improving continuous integration, automated testing, and overall quality
-assurance efforts for the FreeBSD project.
+assurance efforts for the FreeBSD Project.
 
-During the third quarter of 2020, Foundation staff continued improving and
+
+During the fourth quarter of 2020, Foundation staff continued improving and
 monitoring the Project's CI infrastructure, and working with experts to fix
-the failing builds and the regressions found by tests.  The setting up of
-dedicated VM host for running tests is completed.  New feature developments
-and the CI staging environment is in progress.  We are also working with
-other teams in the Project for their testing needs. For example, tests of
-non-x86 architectures now run periodically, and improve the CI of the
-embedded systems. We are also working with many external projects and
-companies to improve the CI between their products and FreeBSD.
+the failing builds and the regressions found by tests.  The work was focused
+on pre-commit tests and development of the CI staging environment.  The other
+main working item is working on the VCS migration to change the src and doc
+source from Subversion to Git.  There are also many work-in-progress tasks like
+analysis and improve the tests of non-x86 platforms.
 
 See the FreeBSD CI section of this report for completed work items and detailed
 information.
 
-### Supporting FreeBSD Infrastructure ###
+### Supporting FreeBSD Infrastructure
 
 The Foundation provides hardware and support to improve the FreeBSD
 infrastructure.  Last quarter, we continued supporting FreeBSD hardware located
@@ -132,22 +108,20 @@ around the world.  We coordinated efforts between the new NYI Chicago facility
 and clusteradm to start working on getting the facility prepared for some of
 the new FreeBSD hardware we are planning on purchasing.  NYI generously
 provides this for free to the Project.  We also worked on connecting with the
-new owners of the Bridgewater site, where most of the FreeBSD infrastructure is
-located.
+new owners of the NYI Bridgewater site, where most of the existing FreeBSD
+infrastructure is located.
 
 Some of the purchases we made for the Project last quarter to support
 infrastructure includes:
- - Spamhaus spam filtering software to limit the amount of spam on the mailing
-   lists.
- - 5 application servers to run tasks like bugzilla, wiki, website, cgi,
-   Phabricator, host git, etc.
- - 1 server to replace the old pkg server and provide a lot more IOPS to
-   avoid the slowdowns seen during peak times of the day where the disks just
-   cannot keep up with the request volume.
- - 1 server for exp-runs to make them faster.
- - 1 server to build packages more frequently.
+* 5 application servers to run tasks like bugzilla, wiki, website, cgi,
+  phabricator, host git, etc.
+* 1 server to replace the old pkg server and will provide a lot more IOPS to
+  avoid the slowdowns seen during peak times of the day where the disks just
+  cannot keep up with the request volume.
+* 1 server for exp-runs and make them faster.
+* 1 server to build packages more frequently
 
-### FreeBSD Advocacy and Education ###
+### FreeBSD Advocacy and Education
 
 A large part of our efforts are dedicated to advocating for the Project.  This
 includes promoting work being done by others with FreeBSD; producing advocacy
@@ -156,57 +130,49 @@ using FreeBSD or contributing to the Project easier; and attending and getting
 other FreeBSD contributors to volunteer to run FreeBSD events, staff FreeBSD
 tables, and give FreeBSD presentations.
 
-The FreeBSD Foundation sponsors many conferences, events, and summits around
-the globe.  These events can be BSD-related, open source, or technology events
-geared towards underrepresented groups.  We support the FreeBSD-focused events
+The FreeBSD Foundation'sponsors many conferences, events, and summits around
+the globe. These events can be BSD-related, open source, or technology events
+geared towards underrepresented groups. We support the FreeBSD-focused events
 to help provide a venue for sharing knowledge, to work together on projects,
 and to facilitate collaboration between developers and commercial users.  This
-all helps provide a healthy ecosystem.  We support the non-FreeBSD events to
+all helps provide a healthy ecosystem. We support the non-FreeBSD events to
 promote and raise awareness of FreeBSD, to increase the use of FreeBSD in
-different applications, and to recruit more contributors to the Project.  As is
-the case for most of us in this industry, COVID-19 has put our in-person events
-on hold.  In addition to attending virtual events, we are continually working
-on new training initiatives and updating our selection of how-to guides to
-facilitate getting more folks to try out FreeBSD.
+different applications, and to recruit more contributors to the Project.
+
+While we were still unable to attend in-person meetings due to covid-19, we
+were able to attend virtual events at new venues and facilitate the first
+online FreeBSD Vendor Summit.  In addition to attending and planning virtual
+events, we are continually working on new training initiatives and updating our
+selection of how-to guides to facilitate getting more folks to try out FreeBSD.
 
 Check out some of the advocacy and education work we did last quarter:
- - Launched our FreeBSD Fridays series of 101 classes.  Topics included an
-   Introduction to FreeBSD, FreeBSD Installfest, Introduction to Security,
-   Introduction to ZFS and more.  Videos of the past sessions and a schedule of
-   upcoming events can be found [here](https://freebsdfoundation.org/freebsd-fridays/).
- - Attended and presented at OSI's State of the Source conference.  The event
-   was held virtually, September 9-11, 2020.
- - Launched the
-   [redesign](https://freebsdfoundation.org/blog/weve-got-a-new-look/)
-   of the FreeBSD Foundation Website.
- - [Announced](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-celebrates-20th-anniversary/)
-   the 20th Anniversary of the FreeBSD Foundation.
- - Participated as an Admin for Google Summer of Code 2020
- - Continued to promote the FreeBSD Office Hours series including holding our
-   own Foundation led office hours.  Videos from the one hour sessions can be
-   found on the Project's
-   [YouTube Channel](https://www.youtube.com/c/FreeBSDProject).  You can watch
-   ours [here](https://www.youtube.com/watch?v=Ji4ux4FWpRU).
- - [Interviewed](https://freebsdfoundation.org/blog/freebsd-core-team-10-in-review/)
-   members of the outgoing FreeBSD Core Team to get their thoughts on their
-   term.
- - Began working with the FreeBSD Vendor Summit planning committee on the
-   [November 2020 Vendor Summit](https://wiki.freebsd.org/DevSummit/202011).
- - Promoted the Foundation's 20th Anniversary and our work to support the
-   FreeBSD Project in the It's FOSS Article.
-   [FreeBSD Foundation Celebrates 20 Years of Promoting and Supporting FreeBSD Project](https://itsfoss.com/freebsd-foundation-20-years/).
- - Authored a [Beginners Guide to FreeBSD](https://www.fosslife.org/beginners-guide-freebsd) for Fosslife.
- - Committed to sponsoring All Things Open as a media Sponsor.
- - Committed to sponsoring the OpenZFS Developers Summit at the Bronze level.
- - Became an International RISC-V Member.
- - Committed to giving a FreeBSD talk at the nerdear.la conference on
-   October 20th.
+* Continued our FreeBSD Fridays series of 101 classes. Topics included an
+  Introduction to Capsicum, Introduction to Bhyve, Introduction to DTrace, and
+  more.  Videos of the past sessions can be found here. We'll be back with new
+  sessions in early 2021.
+* Gave a FreeBSD talk at the nerdear.la conference on October 20th.
+* Participated in the podcast: What the Dev: A Dive into the FreeBSD Foundation
+  on its 20th Anniversary
+* Promoted the Foundation's 20th Anniversary in the FossBytes article:
+  20 Years of The FreeBSD Foundation.
+* Continued to promote the FreeBSD Office Hours series Videos from the one hour
+  sessions can be found on the Project's YouTube Channel.  See the Office Hours
+  section of this report for more information.
+* Add two new How-To Guides: Contributing FreeBSD Documentation and
+  How to Submit a Bug Report .
+* Worked with the organizing committee to host the November 2020 Vendor Summit.
+* Promoted the use of FreeBSD in regards to CHERI and ARM's Morello Processor
+* Authored a Beginners Guide to FreeBSD for Fosslife.
+* Sponsored All Things Open as a Media Sponsor.
+* Sponsored OpenZFS Developers Summit at the Bronze level.
+* Applied for a virtual stand at FOSDEM 2021.
+* Committed to attend the online Apricot 2021.
 
-Keep up to date with our latest work in our
-[monthly newsletters](https://www.freebsdfoundation.org/news-and-events/newsletter/).
+Keep up to date with our latest work in our newsletters:
+https://www.freebsdfoundation.org/news-and-events/newsletter/
 
 Netflix provided an update on how and why they use FreeBSD in our latest
-[Contributor Case Study](https://freebsdfoundation.org/wp-content/uploads/2020/10/netflixcasestudy_final.pdf).
+Contributor Case Study.
 
 We help educate the world about FreeBSD by publishing the professionally
 produced FreeBSD Journal.  As we mentioned previously, the FreeBSD Journal is
@@ -216,20 +182,13 @@ https://www.FreeBSDfoundation.org/journal/.
 You can find out more about events we attended and upcoming events at
 https://www.FreeBSDfoundation.org/news-and-events/.
 
-### Legal/FreeBSD IP ###
+### Legal/FreeBSD IP
 
 The Foundation owns the FreeBSD trademarks, and it is our responsibility to
 protect them.  We also provide legal support for the core team to investigate
-questions that arise.  We updated our
-[Trademark Usage Terms and Conditions](https://freebsdfoundation.org/legal/trademark-usage-terms-and-conditions/)
-on July 1, 2020.
+questions that arise.
 
-Go to [the FreeBSD Foundation's web site](http://www.FreeBSDfoundation.org/) to
-find out how we support FreeBSD and how we can help you!
+Go to http://www.FreeBSDfoundation.org to find out how we support FreeBSD and
+how we can help you!
 
-### Other
-
-We welcomed Andrew Wafaa and Kevin Bowling to our board of directors, to help
-govern the Foundation and guide us with our strategic direction.  We have
-[more information about our new board members](https://freebsdfoundation.org/blog/freebsd-foundation-welcomes-new-board-members-2/)
-on our website.
+[a]Can you include the two new how-to guides? I believe they were added last quarter.
