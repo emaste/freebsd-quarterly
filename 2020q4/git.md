@@ -3,9 +3,10 @@
 Link: [src (base system) git repo](https://cgit.FreeBSD.org/src)  
 Link: [doc git repo](https://cgit.FreeBSD.org/doc)  
 Link: [Beta ports git repo](https://cgit-dev.FreeBSD.org/ports)  
-Link: [Warner's git documentation repo](https://github.com/bsdimp/freebsd-git-docs)
+Link: [Warner's git documentation repo](https://github.com/bsdimp/freebsd-git-docs)  
 Link: [FreeBSD-git mailing list](https://lists.freebsd.org/mailman/listinfo/freebsd-git)  
 Link: [Git conversion tooling repo](https://github.com/freebsd/git_conv)  
+Link: [Git page on FreeBSD wiki](https://wiki.freebsd.org/git)  
 
 The Git working group largely completed the migration of the doc and src
 (base system) trees from Subversion to Git in December 2020.  We are currently
@@ -23,9 +24,13 @@ The src tree migration occurred between December 20th and 23rd for the main
 branch; some additional tasks occurred over the next week or so.  These
 included enabling the stable branches, vendor (contrib) code updates, and
 the git->svn gateway.  We are translating stable branch commits to Subversion
-for the stable/11 and stable/12 branches and associated release branches.  This
+for the stable/11 and stable/12 branches and supported release branches.  This
 allows FreeBSD users who follow stable branches or releases to continue using
-existing processes and tooling.
+existing processes and tooling.  The users of legacy github may need to migrate
+their existing clone to the new repository, the detailed information and
+instructions are available at
+[this commit](https://github.com/freebsd/freebsd-legacy/commit/de1aa3dab23c06fec962a14da3e7b4755c5880cf)
+and srctTransition guide in Warner's git documentation.
 
 An experimental Git conversion of the ports tree is available at the link
 above.  There are some unique challenges in the ports tree (that do not impact
