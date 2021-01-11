@@ -48,6 +48,7 @@ world to watch the livestream. Because of the success and excitement of this
 event, we are planning to hold another one around June or July.
 
 ### Fundraising Efforts
+
 We want to take a moment to say thank you to all the individuals and
 corporations that stepped up to help fund our efforts last year.  As of this
 writing, we raised $1,235,926, and will have the final tally by mid-January.
@@ -83,11 +84,64 @@ and share with your companies!
 
 ### OS Improvements
 
-Continuous Integration and Quality Assurance
+The Foundation provided many project grants over the last quarter, and you
+can read about OpenZFS Zstd support, Linuxulator application compatibility
+improvements, LLDB target support, test lab infrastructure, and WiFi projects
+in other reports in this quarterly update.
+
+The Foundation hired six co-op students from the University of Waterloo during
+the 2020 fall term, as well as one intern.  Former co-op student Tiger
+returned, and new students Yang and Zac joined us for the first time.
+
+Tiger worked on improvements to the code-coverage guided kernel fuzzing tool
+Syzkaller, adding new system call definitions so that Syzkaller can expand the
+code it tests.  A number of FreeBSD kernel bug fixes have already resulted from
+this work.  Tiger also contributed a number of improvements to the ELF Tool
+Chain set of binary utilities, and worked on tooling to run tests from other
+tool suites against ELF Tool Chain.
+
+Zac worked on an improvement to the pkg package management tool, investigating
+and upstreaming patches for FreeBSD support in FreePBX, and investigating
+compiler support for addressing the stack clash vulnerability.
+
+Yang investigated and fixed a compilation bug with the kernel's Skein-1024
+assembly implementation (used by ZFS), and then a number of projects related to
+Capsicum: applying Capsicum to sort(1), implementing a Capsicum service to
+execute utilities, and finally working with developers of the Game of Trees
+(got) version control system to adapt it for Capsicum support.
+
+Our inter Ka Ho focused on improving the desktop experience of the FreeBSD.  He
+fixed and improved many places of OBS (Open Broadcaster Software) on FreeBSD,
+worked on FreeBSD native audio support on Firefox, adding a facility that
+user-space audio programs could make use of to enumerate a list of audio
+devices.  He also ported the fcitx5 input method framework.
+
+The five Foundation staff members continued contributions in 2020 in both
+ongoing operational tasks (including the Git working group and security team)
+and software development for a number of projects.
+
+Staff members responded to reported security vulnerabilities and release
+errata, prepared patches, and participated in the security advisory process.
+We also worked on proactive security vulnerability mitigations.  Syzkaller
+also provided many reports of kernel issues that resulted in
+Foundation-sponsored bug fixes.  We worked on several issues relating to
+FreeBSD/arm64 to move it along the path of being a Tier-1 architecture.
+
+We participated in code reviews and supported community members in integrating
+changes into FreeBSD, and triaged incoming bug reports.
+
+We contributed enhancements to many kernel and userland subsystems, including
+the x86 pmap layer, ELF run-time linker and kernel loader, the Capsicum
+sandboxing framework and Casper services, the threading library, some RISC-V
+changes, the build system, tool chain and freebsd-update, network stack
+stability improvements, machine-dependent optimizations, new kernel interfaces,
+DTrace bug fixes, documentation improvements, and others.
+
+### Continuous Integration and Quality Assurance
+
 The Foundation provides a full-time staff member and funds projects on
 improving continuous integration, automated testing, and overall quality
 assurance efforts for the FreeBSD Project.
-
 
 During the fourth quarter of 2020, Foundation staff continued improving and
 monitoring the Project's CI infrastructure, and working with experts to fix
@@ -113,13 +167,14 @@ infrastructure is located.
 
 Some of the purchases we made for the Project last quarter to support
 infrastructure includes:
-* 5 application servers to run tasks like bugzilla, wiki, website, cgi,
+
+- 5 application servers to run tasks like bugzilla, wiki, website, cgi,
   phabricator, host git, etc.
-* 1 server to replace the old pkg server and will provide a lot more IOPS to
+- 1 server to replace the old pkg server and will provide a lot more IOPS to
   avoid the slowdowns seen during peak times of the day where the disks just
   cannot keep up with the request volume.
-* 1 server for exp-runs and make them faster.
-* 1 server to build packages more frequently
+- 1 server for exp-runs and make them faster.
+- 1 server to build packages more frequently
 
 ### FreeBSD Advocacy and Education
 
@@ -146,27 +201,28 @@ events, we are continually working on new training initiatives and updating our
 selection of how-to guides to facilitate getting more folks to try out FreeBSD.
 
 Check out some of the advocacy and education work we did last quarter:
-* Continued our FreeBSD Fridays series of 101 classes. Topics included an
+
+- Continued our FreeBSD Fridays series of 101 classes. Topics included an
   Introduction to Capsicum, Introduction to Bhyve, Introduction to DTrace, and
   more.  Videos of the past sessions can be found here. We'll be back with new
   sessions in early 2021.
-* Gave a FreeBSD talk at the nerdear.la conference on October 20th.
-* Participated in the podcast: What the Dev: A Dive into the FreeBSD Foundation
+- Gave a FreeBSD talk at the nerdear.la conference on October 20th.
+- Participated in the podcast: What the Dev: A Dive into the FreeBSD Foundation
   on its 20th Anniversary
-* Promoted the Foundation's 20th Anniversary in the FossBytes article:
+- Promoted the Foundation's 20th Anniversary in the FossBytes article:
   20 Years of The FreeBSD Foundation.
-* Continued to promote the FreeBSD Office Hours series Videos from the one hour
+- Continued to promote the FreeBSD Office Hours series Videos from the one hour
   sessions can be found on the Project's YouTube Channel.  See the Office Hours
   section of this report for more information.
-* Add two new How-To Guides: Contributing FreeBSD Documentation and
-  How to Submit a Bug Report .
-* Worked with the organizing committee to host the November 2020 Vendor Summit.
-* Promoted the use of FreeBSD in regards to CHERI and ARM's Morello Processor
-* Authored a Beginners Guide to FreeBSD for Fosslife.
-* Sponsored All Things Open as a Media Sponsor.
-* Sponsored OpenZFS Developers Summit at the Bronze level.
-* Applied for a virtual stand at FOSDEM 2021.
-* Committed to attend the online Apricot 2021.
+- Add two new How-To Guides: [Contributing FreeBSD Documentation](https://freebsdfoundation.org/contributing-freebsd-documentation/)
+  and [How to Submit a Bug Report](https://freebsdfoundation.org/freebsd-project/resources/how-to-submit-a-bug-report/).
+- Worked with the organizing committee to host the November 2020 Vendor Summit.
+- Promoted the use of FreeBSD in regards to CHERI and ARM's Morello Processor
+- Authored a Beginners Guide to FreeBSD for Fosslife.
+- Sponsored All Things Open as a Media Sponsor.
+- Sponsored OpenZFS Developers Summit at the Bronze level.
+- Applied for a virtual stand at FOSDEM 2021.
+- Committed to attend the online Apricot 2021.
 
 Keep up to date with our latest work in our newsletters:
 https://www.freebsdfoundation.org/news-and-events/newsletter/
@@ -190,5 +246,3 @@ questions that arise.
 
 Go to http://www.FreeBSDfoundation.org to find out how we support FreeBSD and
 how we can help you!
-
-[a]Can you include the two new how-to guides? I believe they were added last quarter.
