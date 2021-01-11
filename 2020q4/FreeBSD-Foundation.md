@@ -198,27 +198,27 @@ While we were still unable to attend in-person meetings due to covid-19, we
 were able to attend virtual events at new venues and facilitate the first
 online FreeBSD Vendor Summit.  In addition to attending and planning virtual
 events, we are continually working on new training initiatives and updating our
-selection of how-to guides to facilitate getting more folks to try out FreeBSD.
+selection of [how-to guides](https://freebsdfoundation.org/freebsd-project/resources/) to facilitate getting more folks to try out FreeBSD.
 
 Check out some of the advocacy and education work we did last quarter:
 
 - Continued our FreeBSD Fridays series of 101 classes. Topics included an
   Introduction to Capsicum, Introduction to Bhyve, Introduction to DTrace, and
-  more.  Videos of the past sessions can be found here. We'll be back with new
+  more.  Videos of the past sessions can be found [here](https://freebsdfoundation.org/freebsd-fridays/). We'll be back with new
   sessions in early 2021.
 - Gave a FreeBSD talk at the nerdear.la conference on October 20th.
-- Participated in the podcast: What the Dev: A Dive into the FreeBSD Foundation
-  on its 20th Anniversary
+- Participated in the podcast: [What the Dev: A Dive into the FreeBSD Foundation
+  on its 20th Anniversary](https://freebsdfoundation.org/news-and-events/latest-news/what-the-dev-podcast-a-dive-into-the-freebsd-foundation-on-its-20th-anniversary/)
 - Promoted the Foundation's 20th Anniversary in the FossBytes article:
-  20 Years of The FreeBSD Foundation.
+  [20 Years of The FreeBSD Foundation](https://freebsdfoundation.org/news-and-events/latest-news/fossbytes-20-years-of-the-freebsd-foundation/)
 - Continued to promote the FreeBSD Office Hours series Videos from the one hour
-  sessions can be found on the Project's YouTube Channel.  See the Office Hours
+  sessions can be found on the Project's [YouTube Channel](https://www.youtube.com/channel/UCxLxR_oW-NAmChIcSkAyZGQ)  See the Office Hours
   section of this report for more information.
 - Add two new How-To Guides: [Contributing FreeBSD Documentation](https://freebsdfoundation.org/contributing-freebsd-documentation/)
   and [How to Submit a Bug Report](https://freebsdfoundation.org/freebsd-project/resources/how-to-submit-a-bug-report/).
-- Worked with the organizing committee to host the November 2020 Vendor Summit.
-- Promoted the use of FreeBSD in regards to CHERI and ARM's Morello Processor
-- Authored a Beginners Guide to FreeBSD for Fosslife.
+- Worked with the organizing committee to host the [November 2020 Vendor Summit](https://wiki.freebsd.org/DevSummit/202011)
+- Promoted the [use of FreeBSD](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-essential-to-bringing-cheri-and-arms-morello-processor-to-life/) in regards to CHERI and ARM's Morello Processor
+- Authored a [Beginners Guide to FreeBSD](https://www.fosslife.org/beginners-guide-freebsd) for Fosslife.
 - Sponsored All Things Open as a Media Sponsor.
 - Sponsored OpenZFS Developers Summit at the Bronze level.
 - Applied for a virtual stand at FOSDEM 2021.
@@ -228,7 +228,7 @@ Keep up to date with our latest work in our newsletters:
 https://www.freebsdfoundation.org/news-and-events/newsletter/
 
 Netflix provided an update on how and why they use FreeBSD in our latest
-Contributor Case Study.
+[Contributor Case Study](https://freebsdfoundation.org/blog/freebsd-case-study-netflix/).
 
 We help educate the world about FreeBSD by publishing the professionally
 produced FreeBSD Journal.  As we mentioned previously, the FreeBSD Journal is
