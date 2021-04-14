@@ -1,0 +1,22 @@
+== Git Migration Working Group
+
+Link: link:https://cgit.FreeBSD.org/doc[doc git repo] +
+Link: link:https://cgit.FreeBSD.org/ports[ports git repo] +
+Link: link:https://cgit.FreeBSD.org/src[src (base system) git repo] +
+Link: link:https://docs.freebsd.org/en/articles/committers-guide/#git-primer[Committers guide Git primer] +
+Link: link:https://docs.freebsd.org/en/books/handbook/mirrors/#git[Handbook Using Git appendix] +
+Link: link:http://gameoftrees.org/[Game of Trees] +
+Link: link:https://github.com/johnmehr/gitup[gitup]
+
+Contact: Li-Wen Hsu <lwhsu@FreeBSD.org> +
+Contact: Warner Losh <imp@FreeBSD.org> +
+Contact: Ed Maste <emaste@FreeBSD.org> +
+Contact: Ulrich Spörlein <uqs@FreeBSD.org> +
+Contact: link:https://lists.freebsd.org/mailman/listinfo/freebsd-git[FreeBSD-git mailing list] +
+Contact IRC #gitcvt channel on EFnet
+
+The doc and src trees were migrated from Subversion to Git at the end of 2020, with some additional work extending into the first quarter of 2021.
+The Git Working Group implemented or updated commit hooks, and prepared for FreeBSD 13 to be built from Git.
+We converted draft documentation from Markdown to Asciidoc and merged it into the committer's guide and handbook.
+
+Sponsor: The FreeBSD Foundation (in part)
