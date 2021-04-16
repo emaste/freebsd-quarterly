@@ -1,5 +1,6 @@
 == Git Migration Working Group
 
+Link: link:https://wiki.freebsd.org/git[Git transition wiki] +
 Link: link:https://cgit.FreeBSD.org/doc[doc git repo] +
 Link: link:https://cgit.FreeBSD.org/ports[ports git repo] +
 Link: link:https://cgit.FreeBSD.org/src[src (base system) git repo] +
