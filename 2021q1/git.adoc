@@ -19,4 +19,6 @@ The doc and src trees were migrated from Subversion to Git at the end of 2020, w
 The Git Working Group implemented or updated commit hooks, and prepared for FreeBSD 13 to be built from Git.
 We converted draft documentation from Markdown to Asciidoc and merged it into the committer's guide and handbook.
 
+The ports repository migrating to Git is planned at the beginning of the second quarter of 2021.  We mark the ports repository as being converted to Git on March 31st and set the ports Subversion repository readonly.  We are working on portsnap and other ports infrastructure and they will be finished before or soon after the migration.
+
 Sponsor: The FreeBSD Foundation (in part)
