@@ -10,8 +10,8 @@ Here are some highlights of what we did to help FreeBSD last quarter:
 
 == COVID-19 Impact to the Foundation
 
-Like most organizations, we transitioned all of our staff to work from home.
-We also put a temporary ban on travel for staff members, which didn't affect our output too much, since most conferences went virtual.
+Like most organizations, our team continued to work from home.
+Our temporary ban on travel for staff members remains in effect, but continues to not affect our output too much, since most conferences are still virtual.
 We continued supporting the community and Project, even though some of our work and responses may have been delayed because of changes in some of our priorities and the impact of limited childcare for a few of our staff members.
 
 === Partnerships and Commercial User Support
