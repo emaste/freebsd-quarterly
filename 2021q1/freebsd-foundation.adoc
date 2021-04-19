@@ -42,7 +42,7 @@ While we are still in this pandemic, we’re working hard to help connect folks 
 Please consider making a donation to help us continue and increase our support for FreeBSD in 2021: https://www.freebsdfoundation.org/donate/.
 
 We also have the Partnership Program, to provide more benefits for our larger commercial donors.
-Find out more information at https://www.freebsdfoundation.org/FreeBSD-foundation-partnership-program/ and share with your companies!
+Find out more information and share with your companies! https://www.freebsdfoundation.org/FreeBSD-foundation-partnership-program/ 
 
 === OS Improvements
 
@@ -97,7 +97,7 @@ Check out some of the advocacy and education work we did last quarter:
 
 - Presented a workshop at Apricot 2021
 - Staffed a virtual stand at FOSDEM 2021 and created a what’s new in 13.0 video to accompany the stand
-- Staff a virtual booth and was a community sponsor for FOSSASIA 2021
+- Staffed a virtual booth and was a community sponsor for FOSSASIA 2021
 - Participated as an Industry Partner for USENIX FAST ‘21
 - Committed to be an Industry Partner for USENIX Annual Tech, USENIX OSDI, USENIX Security and USENIX LISA
 - Continued to promote the FreeBSD Office Hours series Videos from the one hour sessions can be found on the Project’s YouTube Channel: https://www.youtube.com/c/FreeBSDProject.
