@@ -76,8 +76,8 @@ These events can be BSD-related, open source, or technology events geared toward
 We support the FreeBSD-focused events to help provide a venue for sharing knowledge, to work together on projects, and to facilitate collaboration between developers and commercial users.
 This all helps provide a healthy ecosystem.
 We support the non-FreeBSD events to promote and raise awareness of FreeBSD, to increase the use of FreeBSD in different applications, and to recruit more contributors to the Project.
-While we were still unable to attend in-person meetings due to covid-19, we were able to attend virtual events and begin planning for the online Spring FreeBSD Developer Summit.
-In addition to attending and planning virtual events, we are continually working on new training initiatives and updating our selection of how-to guides to facilitate getting more folks to try out FreeBSD.
+While we were still unable to attend in-person meetings due to covid-19, we were able to attend virtual events and began planning for the online Spring FreeBSD Developer Summit.
+In addition to attending and planning virtual events, we are continually working on new training initiatives and updating our selection of how-to guides to facilitate getting more folks to try out FreeBSD. https://www.freebsdfoundation.org/freebsd/how-to-guides/
 
 Check out some of the advocacy and education work we did last quarter:
 
@@ -86,13 +86,13 @@ Check out some of the advocacy and education work we did last quarter:
 - Staff a virtual booth and was a community sponsor for FOSSASIA 2021
 - Participated as an Industry Partner for USENIX FAST ‘21
 - Committed to be an Industry Partner for USENIX Annual Tech, USENIX OSDI, USENIX Security and USENIX LISA
-- Continued to promote the FreeBSD Office Hours series Videos from the one hour sessions can be found on the Project’s YouTube Channel.
+- Continued to promote the FreeBSD Office Hours series Videos from the one hour sessions can be found on the Project’s YouTube Channel: https://www.youtube.com/c/FreeBSDProject.
 See the Office Hours section of this report for more information.
 - Worked with the organizing committee to begin planning the Spring FreeBSD Developers Summit.
 - Continued recruiting for the FreeBSD Fridays series.  The series will return in May.
-- Participated in an interview with The Register about FreeBSD 13.0 highlights
+- Participated in an interview with The Register about FreeBSD 13.0 highlights. https://www.theregister.com/2021/03/10/the_state_of_freebsd/
 
-Keep up to date with our latest work in our newsletters: https://www.freebsdfoundation.org/news-and-events/newsletter/
+Keep up to date with our latest work in our newsletters: https://freebsdfoundation.org/our-work/latest-updates/?filter=newsletter
 
 We help educate the world about FreeBSD by publishing the professionally produced FreeBSD Journal.
 As we mentioned previously, the FreeBSD Journal is now a free publication.
